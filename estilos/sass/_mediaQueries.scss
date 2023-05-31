@@ -1,0 +1,58 @@
+@media screen and (min-width: 1024px){
+    header{
+        animation-name: opacity;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        @keyframes opacity {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+    main{
+        background-image: linear-gradient(to top, #8c52ff, #ff914d);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 100;
+        h2{
+            margin-top: 5%;
+            font-size: 20px;
+        }
+        .mainDescripcion{
+            display: grid;
+            grid-template-areas: 
+            "subtitulo1 subtitulo2"
+            "descripcion conocimientos";
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-flow: row;
+            gap: 50px;
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            color: white;
+            font-weight: 600;
+            margin-top: 200px;
+            margin-bottom: 100px;
+            .subtitulo1{
+                grid-area: subtitulo1;
+                text-align: center;
+            }
+            .subtitulo2{
+                grid-area: subtitulo2;
+                text-align: center;
+            }
+            .descripcion{
+                grid-area: descripcion;
+            }
+            .conocimientos{
+                grid-area: conocimientos;
+            }
+        }
+    }
+}

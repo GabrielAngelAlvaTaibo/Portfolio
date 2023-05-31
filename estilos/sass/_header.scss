@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: auto;
+    border-bottom: black ridge 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../../img/1920x1080-Fondo-de-pantalla-negro-mate-1920x1080-PX.jpg);
+    background-image: cover;
+    .intro{
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;     
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 100;
+    }
+}
