@@ -14,8 +14,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(../../img/1920x1080-Fondo-de-pantalla-negro-mate-1920x1080-PX.jpg);
-  background-image: cover;
 }
 header .intro {
   font-size: 20px;
